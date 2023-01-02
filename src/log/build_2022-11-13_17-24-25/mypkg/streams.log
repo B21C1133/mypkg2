@@ -1,0 +1,35 @@
+[1.486s] Invoking command in '/home/yamaki/ros2_ws/src/mypkg': PYTHONPATH=/home/yamaki/ros2_ws/src/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mypkg build --build-base /home/yamaki/ros2_ws/src/build/mypkg/build install --prefix /home/yamaki/ros2_ws/src/install/mypkg --record /home/yamaki/ros2_ws/src/build/mypkg/install.log --single-version-externally-managed
+[1.788s] running egg_info
+[1.789s] creating ../build/mypkg/mypkg.egg-info
+[1.790s] writing ../build/mypkg/mypkg.egg-info/PKG-INFO
+[1.790s] writing dependency_links to ../build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.790s] writing entry points to ../build/mypkg/mypkg.egg-info/entry_points.txt
+[1.791s] writing requirements to ../build/mypkg/mypkg.egg-info/requires.txt
+[1.791s] writing top-level names to ../build/mypkg/mypkg.egg-info/top_level.txt
+[1.792s] writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.802s] reading manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.803s] writing manifest file '../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.804s] running build
+[1.804s] running build_py
+[1.804s] creating /home/yamaki/ros2_ws/src/build/mypkg/build
+[1.804s] creating /home/yamaki/ros2_ws/src/build/mypkg/build/lib
+[1.805s] creating /home/yamaki/ros2_ws/src/build/mypkg/build/lib/mypkg
+[1.805s] copying mypkg/__init__.py -> /home/yamaki/ros2_ws/src/build/mypkg/build/lib/mypkg
+[1.807s] running install
+[1.808s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.809s]   warnings.warn(
+[1.809s] running install_lib
+[1.810s] creating /home/yamaki/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg
+[1.810s] copying /home/yamaki/ros2_ws/src/build/mypkg/build/lib/mypkg/__init__.py -> /home/yamaki/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg
+[1.811s] byte-compiling /home/yamaki/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg/__init__.py to __init__.cpython-310.pyc
+[1.812s] running install_data
+[1.813s] creating /home/yamaki/ros2_ws/src/install/mypkg/share/ament_index
+[1.815s] creating /home/yamaki/ros2_ws/src/install/mypkg/share/ament_index/resource_index
+[1.816s] creating /home/yamaki/ros2_ws/src/install/mypkg/share/ament_index/resource_index/packages
+[1.816s] copying resource/mypkg -> /home/yamaki/ros2_ws/src/install/mypkg/share/ament_index/resource_index/packages
+[1.816s] copying package.xml -> /home/yamaki/ros2_ws/src/install/mypkg/share/mypkg
+[1.817s] running install_egg_info
+[1.819s] Copying ../build/mypkg/mypkg.egg-info to /home/yamaki/ros2_ws/src/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[1.824s] running install_scripts
+[1.853s] writing list of installed files to '/home/yamaki/ros2_ws/src/build/mypkg/install.log'
+[1.902s] Invoked command in '/home/yamaki/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/yamaki/ros2_ws/src/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/mypkg build --build-base /home/yamaki/ros2_ws/src/build/mypkg/build install --prefix /home/yamaki/ros2_ws/src/install/mypkg --record /home/yamaki/ros2_ws/src/build/mypkg/install.log --single-version-externally-managed
